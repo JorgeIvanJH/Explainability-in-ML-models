@@ -51,4 +51,7 @@ We cover four SHAP visualisations:
 
 Open and run `explainability.ipynb` in Jupyter or on Kaggle.
 
+## Use of AI
+
+I recognize the usage of copilot to help me write this Readme and the requirements.txt, which were manually tested to re run the jupyter notebook.
 ---
