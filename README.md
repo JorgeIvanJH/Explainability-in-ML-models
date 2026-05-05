@@ -1,6 +1,6 @@
 # Explainability in ML Models
 
-Below, we give some intuition behind explainability in black-box models. We start from the simple case of Linear Regression, and then progress to more complex models — all grounded on the California Housing dataset as ground truth.
+In this [notebook](explainability.ipynb), we give some intuition behind explainability in black-box models. We start from the simple case of linear regression, and then progress to a more complex model based on LightGBM, all grounded on the California Housing dataset as ground truth.
 
 ## Dataset
 
@@ -19,8 +19,10 @@ The [California Housing dataset](https://scikit-learn.org/stable/datasets/real_w
 
 ## Dependencies
 
+The notebook was created with Python 3.12.12. Install the pinned dependencies with:
+
 ```bash
-pip install numpy pandas scikit-learn shap matplotlib plotly
+pip install -r requirements.txt
 ```
 
 ## Overview
@@ -50,5 +52,3 @@ We cover four SHAP visualisations:
 Open and run `explainability.ipynb` in Jupyter or on Kaggle.
 
 ---
-
-Content heavily inspired by the tutorials in: https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html
